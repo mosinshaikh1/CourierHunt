@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="shome.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="otp">Or enter OTP:</label>
+                <div class="otp-option">
+                    
+                    <input type="text" id="otp" name="otp">
+                    <button type="button" id="sendOtpBtn">Send OTP</button>
+                </div>
+            </div>
+                <button type="submit" id="submitBtn">Login</button>
+            </form>
+            <p>Don't have an account? <a href="studenthomesignin.html">Sign up</a></p>
+        </div>
+    </div>
+
+    <script src="shome.js"></script>
+</body>
+</html>
